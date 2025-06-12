@@ -1,0 +1,12 @@
+URL: https://github.com/JuliannaR555/GenAI/blob/main/Daily_challenge_W1_D1.ipynb
+suggestions for improvement:
+- Challenge 1: The code correctly generates the list of multiples, but the input prompts should be more descriptive and user-friendly.  The variable `lenght` should be `length` for consistency.
+- Challenge 1: The code is repetitive.  It would be better to encapsulate the input and calculation logic into a function.
+- Challenge 2: The code correctly removes consecutive duplicate characters. The variable names could be more descriptive (e.g., `new_word` could be `result`).  The comments in the code are in French; English comments would improve accessibility.
+- Challenge 2:  The prompt in the code should be in English to match the chapter's requirements. Add error handling for invalid input (non-string).
+Brief justification:
+- correctness: The code for both challenges produces the correct output for the given examples. Challenge 1 demonstrates the ability to generate sequences based on input criteria (as described in the chapter content). Challenge 2 shows the correct string manipulation to remove consecutive duplicates, fulfilling the chapter's objectives. However, neither code handles edge cases or invalid input, reducing the overall correctness score.
+- readability: The code for Challenge 1 is fairly readable, but repetitive.  The code for Challenge 2 is also functional but the mix of French and English comments and slightly cryptic variable names detracts from readability. Consistent use of English and more descriptive variable names would improve readability.
+- performance: The code's performance is good. Both challenges use list comprehensions (Challenge 1) and a single loop (Challenge 2), both efficient approaches for the tasks.  The algorithms have a time complexity suitable for the problem sizes indicated.
+- security: There are no security vulnerabilities. The code only interacts with user input and performs basic string and numerical operations; there's no exposure to external resources or sensitive data.
+
